@@ -1,0 +1,98 @@
+* {
+
+    padding: 0;
+    outline: 0;
+    font-family: 'kalpurushregular';
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 100px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.logos{
+    margin-left: 50%;
+    margin-top: 30px;
+}
+.search{
+    border: none;
+}
+.middleHeaderItem2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+.btnn button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #217621;
+    color: #ffffff;
+}
+.dropdownMenu{
+    margin-top: 10px;
+}
+.item a img{
+    width: 100%;
+}
+.carts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #fff;
+    margin-top: 10px;
+    padding: 33px 120px;
+    gap: 50px;
+}
+.box{
+    border: 1px solid green;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    border-radius: 10px;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.land_services_counter {
+    background: url(https://land.gov.bd/wp-content/uploads/2023/03/field-backgr.png) rgba(16,120,94,0.8);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-top: 2px solid #009164;
+    border-bottom: 2px solid #009164;
+}
+.trt{
+   display: flex;
+   justify-content: center;
+   gap: 200px;
+   color: #ffffff;
+   padding: 49px 50px;
+}
+.media-body p{
+    font-size: 30px;
+    margin: 0;
+}
+.media-heading{
+    margin: 10px;
+}
+.roow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.fo-title h2{
+    margin: 0px;
+    font-size: 18px;
+}
+.footer-bottom{
+    color: #fff;
+    text-align: center;
+    background-color: #217621;
+    padding: 10px 20px;
+}
